@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TC Bazaar Viewer - View Bazaars even from Hospital!</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@2.2.16/dist/tailwind.min.css"
+    />
+  </head>
+  <body class="bg-gray-800 text-white">
+    <div class="container mx-auto my-8 p-4">
+      <div
+        class="max-w-sm mx-auto bg-gray-700 rounded-2xl shadow-lg px-8 py-4 mb-4"
+      >
+        <h1 class="text-4xl font-bold mb-4 text-center">TC Bazaar Viewer</h1>
+        <h2 class="text-lg font-bold mb-4 text-center">
+          View Bazaars even from Hospital!
+        </h2>
+        <form id="torn-api-form">
+          <div class="flex items-center mb-2">
+            <label for="api-key" class="w-32">API Key:</label>
+            <input
+              id="api-key"
+              name="api-key"
+              type="text"
+              class="flex-1 border rounded p-1 bg-gray-900"
+            />
+          </div>
+          <div class="flex items-center mb-2">
+            <label for="user-id" class="w-32">User ID:</label>
+            <input
+              id="user-id"
+              name="user-id"
+              type="text"
+              class="flex-1 border rounded p-1 bg-gray-900"
+            />
+          </div>
+          <button
+            type="submit"
+            class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50"
+          >
+            Fetch Bazaar
+          </button>
+          <div class="text-gray-400 text-sm mt-2">
+            API Key is stored locally.
+            <a
+              class="text-blue-400"
+              href="https://github.com/oranweb/tc-bazaar"
+              target="_blank"
+              rel="noopener noreferrer"
+              >view source on github</a
+            >
+          </div>
+        </form>
+      </div>
+      <div id="bazaar-list"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
