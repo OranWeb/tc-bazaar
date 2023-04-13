@@ -2,7 +2,7 @@
 
 A Tool to View Bazaars even from Hospital for [Torn City](https://torn.com/1778676)
 
-[https://tc-bazaar.oran.pw/](https://tc-bazaar.oran.pw/)
+[https://oran.pw/tc-bazaar](https://oran.pw/tc-bazaar)
 
 Join our Discord [Here](https://discord.gg/JrBpEsQB5g)
 
